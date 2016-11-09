@@ -1,0 +1,41 @@
+nav {
+   margin-bottom: -54.4px; 
+
+   .active {
+       color: $primary-color;
+    }
+
+    .is-stuck {
+        background-color: rgba(0,0,0,1);
+    } 
+}
+
+.nav-desktop {
+    width: 100%;
+
+    ul {
+
+    }
+
+    li {
+
+    }
+
+    a {
+
+    }
+}
+
+.nav-mobile {
+    ul {
+
+    }
+
+    li {
+
+    }
+
+    a {
+        
+    }
+}

@@ -2,18 +2,48 @@
 
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="{{root}}assets/css/app.css">
-  </head>
-  <body>
 
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Five Lads</title>
+	<link rel="stylesheet" href="{{root}}assets/css/app.css">
+	<link href="https://fonts.googleapis.com/css?family=Arvo:700" rel="stylesheet">
+</head>
 
-    <script src="{{root}}assets/js/app.js"></script>
-  </body>
+<body>
+	<div class="off-canvas-wrapper">
+		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+			<div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+
+				<!-- Close button -->
+				<button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+				<!-- Menu -->
+				<ul class="vertical menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#our-food">Our Food</a></li>
+					<li><a href="#our-brand">Our Brand</a></li>
+					<li><a href="#franchise">Franchise</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+
+			</div>
+
+			<div class="off-canvas-content" data-off-canvas-content>
+
+				<!-- Page content -->
+				{{> navigation}} {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+				{{> body}}
+			</div>
+		</div>
+	</div>
+
+
+	<script src="{{root}}assets/js/app.js"></script>
+</body>
+
 </html>
