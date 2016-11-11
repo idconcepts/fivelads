@@ -4271,13 +4271,13 @@ table.hover tbody tr:nth-of-type(even):hover {
     font-size: 3rem; }
 
 #our-food {
-  background: url("assets/img/dark-wood-background.png") no-repeat center center;
+  background: url("../img/dark-wood-background.png") no-repeat center center;
   background-size: cover cover; }
   #our-food h2 {
     color: #D45D07; }
 
 #contact {
-  background: url("assets/img/light-wood-background.png") no-repeat center center;
+  background: url("../img/light-wood-background.png") no-repeat center center;
   background-size: cover cover; }
   #contact h2 {
     color: #21130C; }
@@ -4295,7 +4295,7 @@ nav {
 .hero {
   background-color: #414141;
   padding-top: 2rem;
-  background: url("assets/img/charcoal_background.jpg") no-repeat center center;
+  background: url("../img/charcoal_background.jpg") no-repeat center center;
   background-size: cover cover; }
   .hero h1 {
     margin-bottom: -6rem; }
